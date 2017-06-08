@@ -18,3 +18,33 @@ body{
     margin: 30px auto;
     overflow: hidden;
 }
+
+.banner{
+    width: 1200px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-slide{
+    width: 1200px;
+    height: 460px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+.slide-active{
+    display: block;
+}
+
+.slide1{
+    background-image:url("../images/1.jpg");
+}
+
+.slide2{
+    background-image: url("../images/2.jpg");
+}
+
+.slide3{
+    background-image: url("../images/3.jpg");
+}
